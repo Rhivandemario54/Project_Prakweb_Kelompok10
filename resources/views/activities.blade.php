@@ -16,7 +16,7 @@
 </div>
 
 <div class="col-xxl-8  d-flex ">
-        <img src="img/hotel2.jpg" class="img-fluid"  width="500" height="300">
+        <img src="img/hotel.jpg" class="img-fluid"  width="500" height="300">
  
       
 <div class="col-lg-6 text-light ms-5">
