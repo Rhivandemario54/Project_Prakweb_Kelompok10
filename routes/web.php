@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('home', [
         "title" => "Home",
+<<<<<<< HEAD
         'active' => 'home'
     ]);
 });
@@ -31,5 +33,29 @@ Route::get('/booking', function () {
     return view('booking', [
         "title" => "booking",
         'active' => 'booking'
+=======
+        "active" =>"home"
+    ]);
+});
+
+Route::get('/room', function () {
+    return view('room', [
+        "title" => "Room",
+        "active" =>"room"
+    ]);
+});
+
+Route::get('/activities', function () {
+    return view('activities', [
+        "title" => "Activities",
+        "active" =>"activities"
+    ]);
+});
+
+Route::get('/contact', function () {
+    return view('contact', [
+        "title" => "Contact",
+        "active" =>"contact"
+>>>>>>> 6f1b90ecc54388a6690a771b0bd23accc03750e4
     ]);
 });
