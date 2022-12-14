@@ -17,6 +17,9 @@
             <a class="nav-link {{ ($active === "room") ? 'active' : '' }}" href="/room">room</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link {{ ($active === "galery") ? 'active' : '' }}" href="/galery">galery</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link {{ ($active === "booking") ? 'active' : '' }}" href="/booking">booking</a>
           </li>
           <li class="nav-item">

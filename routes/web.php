@@ -43,6 +43,13 @@ Route::get('/room', function () {
     ]);
 });
 
+Route::get('/galery', function () {
+    return view('galery', [
+        "title" => "Galery",
+        "active" =>"galery"
+    ]);
+});
+
 Route::get('/activities', function () {
     return view('activities', [
         "title" => "Activities",
