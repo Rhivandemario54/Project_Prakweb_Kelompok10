@@ -17,6 +17,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', [
         "title" => "Home",
+        'active' => 'home'
+    ]);
+});
+
+Route::get('/hotel', function () {
+    return view('hotel', [
+        "title" => "hotel",
+        'active' => 'hotel'
+    ]);
+});
+
+Route::get('/booking', function () {
+    return view('booking', [
+        "title" => "booking",
+        'active' => 'booking',
         "active" =>"home"
     ]);
 });
